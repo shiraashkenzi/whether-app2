@@ -6,8 +6,9 @@ import RecentSearches from './components/RecentSearches';
 
 function App() {
   return (
-  
-    <div className="App">    
+  //basic router  
+    <div className="App"> 
+    
         <Routes>
           <Route path='/' element={<Weather />}></Route>
           <Route path='/recentSearches' element={<RecentSearches />}></Route>
